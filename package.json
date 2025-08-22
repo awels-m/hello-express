@@ -1,12 +1,16 @@
 {
   "name": "hello-express",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "Tiny Express app with GitHub Actions CI",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "node test.js",
     "build": "echo \"(optional build step)\""
+  },
+  "engines": {
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
